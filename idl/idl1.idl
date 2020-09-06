@@ -1,0 +1,9 @@
+module TemplateData
+{
+  struct TemplateMsg
+  {
+    long userID;
+    string message;
+  };
+  #pragma keylist TemplateMsg userID
+};
